@@ -20,5 +20,5 @@
 https://paperswithcode.com/datasets?q=multimodal&v=lst&o=match
 
 ### Docs
-https://docs.habana.ai/en/latest/PyTorch_User_Guide/PyTorch_User_Guide.html
-https://docs.aws.amazon.com/dlami/latest/devguide/tutorial-habana-launching.html
+* https://docs.habana.ai/en/latest/PyTorch_User_Guide/PyTorch_User_Guide.html 
+* https://docs.aws.amazon.com/dlami/latest/devguide/tutorial-habana-launching.html

@@ -22,3 +22,6 @@ https://paperswithcode.com/datasets?q=multimodal&v=lst&o=match
 ### Docs
 * https://docs.habana.ai/en/latest/PyTorch_User_Guide/PyTorch_User_Guide.html 
 * https://docs.aws.amazon.com/dlami/latest/devguide/tutorial-habana-launching.html
+### Facebook Research
+* https://github.com/facebookresearch/mmf
+* https://github.com/facebookresearch/mmf/tree/main/projects/hateful_memes

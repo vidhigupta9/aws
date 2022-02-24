@@ -18,6 +18,8 @@
 
 ### Datasets
 https://paperswithcode.com/datasets?q=multimodal&v=lst&o=match
+https://hatefulmemeschallenge.com/
+https://www.kaggle.com/parthplc/facebook-hateful-meme-dataset
 
 ### Docs
 * https://docs.habana.ai/en/latest/PyTorch_User_Guide/PyTorch_User_Guide.html 

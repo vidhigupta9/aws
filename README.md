@@ -17,9 +17,9 @@
 5. https://arxiv.org/pdf/2201.00083.pdf (Automated Fake News Detection using cross-checking with reliable sources)
 
 ### Datasets
-https://paperswithcode.com/datasets?q=multimodal&v=lst&o=match
-https://hatefulmemeschallenge.com/
-https://www.kaggle.com/parthplc/facebook-hateful-meme-dataset
+* https://paperswithcode.com/datasets?q=multimodal&v=lst&o=match
+* https://hatefulmemeschallenge.com/
+* https://www.kaggle.com/parthplc/facebook-hateful-meme-dataset
 
 ### Docs
 * https://docs.habana.ai/en/latest/PyTorch_User_Guide/PyTorch_User_Guide.html 

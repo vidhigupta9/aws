@@ -72,7 +72,10 @@ def main():
             st.image(image_file)
             my_bar = st.progress(100)
             spfd = SpoofClassifier()
-            spfd.spoofdetect(image_file)
+            result = spfd.spoofdetect(image_file)
+	    return result
+	
+	
 
 
     def check_url():

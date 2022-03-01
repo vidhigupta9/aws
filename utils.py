@@ -19,7 +19,7 @@ def download_model(save_dir = os.getcwd()+'/models/'):
         modelfile = requests.get(url, allow_redirects=True)
         open(os.path.join(save_dir,'model.pkl'), 'wb').write(modelfile.content)
     if not os.path.isfile(os.path.join(save_dir,'model_image.pt')):
-        gdown.download(id='1-TI3lKVLkcl-5dF0-njvDxS_lyAQcZxp', output=os.path.join(save_dir,'model_image.pkl'), quiet=False)
+        gdown.download(id='1-TI3lKVLkcl-5dF0-njvDxS_lyAQcZxp', output=os.path.join(save_dir,'model_image.pt'), quiet=False)
 
 def perturbate_data(data, percent = 0.3, n_combinations= 3, n_e_combinations = None):
     print("This might take few minutes depending on your machine's computing power.")

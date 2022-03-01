@@ -2,6 +2,7 @@ import requests
 import os
 import os.path
 import pickle
+from sqlalchemy import true
 import torch
 from utils import download_model
 from extract import extract_url
@@ -9,7 +10,7 @@ from model import Net
 import numpy as np
 import collections
 from extract import *
-from torchvision import datasets, transforms, models
+from torchvision import transforms, models
 import torch.nn.functional as F
 from PIL import Image  
 import torch.nn as nn

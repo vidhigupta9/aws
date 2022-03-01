@@ -163,9 +163,7 @@ def main():
         st.write("Upload any image of potential phishing website to verify if it is clone or not")
         result = image_check()
 	st.write(result)
-    
-
-   
+       
     
     #Sidebar
     st.sidebar.header("About App")

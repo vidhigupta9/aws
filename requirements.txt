@@ -35,4 +35,3 @@ tqdm==4.62.3
 regex==2021.9.30
 python-dotenv==0.19.1
 torchvision==0.11.3
-botocore==1.24.8

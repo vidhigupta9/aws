@@ -27,7 +27,7 @@ numpy == 1.21.2
 
 # aws/app.py: 4
 # aws/figa.py: 2
-pandas == 1.4.1
+pandas == 1.3.5
 
 # aws/lib/functions.py: 5
 rblwatch == 0.3.0

@@ -162,7 +162,7 @@ def main():
     if process_name == 'Image Check':
         st.write("Upload any image of potential phishing website to verify if it is clone or not")
         result = image_check()
-    	st.write(result)
+	st.write(result)
     
 
    

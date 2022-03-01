@@ -8,7 +8,7 @@ from tweepy import OAuthHandler
 import json
 import re
 import configparser
-import detector
+from phizon import UrlDetector, SpoofClassifier
 
 
 #To Hide Warnings
@@ -56,8 +56,8 @@ def main():
 
 
     def prediction(url):
-        dt = detector.Detector()
-        result = dt.detect(url)
+        dt = UrlDetector()
+        result = dt.urldetect(url)
         return result 
     
     def image_check():

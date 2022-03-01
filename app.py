@@ -157,7 +157,8 @@ def main():
         fetch_tweet(api)               
     if process_name == 'Image Check':
         st.write("Upload any image of potential phishing website to verify if it is clone or not")
-        image_check()
+        result = image_check()
+	st.write(result)
 
    
     

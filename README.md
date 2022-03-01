@@ -17,7 +17,7 @@ also proposes the URL classification process which recognizes whether the target
 <br />
 
 ### Clone Check
-Upload a website screenshot/image to see whether it is a clone of any authorised popular website to prevent sensitive information retrieval and data breaches. Classify it using our deep learning model trained on Habana DL1 accelerators.
+Upload a website screenshot/image to see whether it is a clone of any authorised popular website to prevent sensitive information retrieval and data breaches.
 <br />
 
 ## Dataset

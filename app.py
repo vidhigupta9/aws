@@ -58,7 +58,10 @@ def main():
     def prediction(url):
         dt = UrlDetector()
         result = dt.urldetect(url)
-        return result 
+        if result == 1:
+            return "Dangerous"
+        else:
+            return "Legitimate"
     
     def image_check():
         st.subheader("Image")
@@ -68,6 +71,8 @@ def main():
             st.write(file_details)
             st.image(image_file)
             my_bar = st.progress(100)
+            spfd = SpoofClassifier()
+            spfd.spoofdetect(image_file)
 
 
     def check_url():
@@ -141,6 +146,7 @@ def main():
 
     if process_name == 'Enter URL':
         result = check_url()
+        my_bar =  st.progress(100)
         if st.button("Predict Results"):
             st.write(result)
     if process_name == 'Fetch Tweets':

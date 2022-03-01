@@ -73,7 +73,11 @@ def main():
             my_bar = st.progress(100)
             spfd = SpoofClassifier()
             result = spfd.spoofdetect(image_file)
-	    return result
+            if result == 1:
+                return "Dangerous"
+            else:
+                return "Legitimate"
+        return 'Please Select Image'
 	
 	
 
@@ -158,7 +162,8 @@ def main():
     if process_name == 'Image Check':
         st.write("Upload any image of potential phishing website to verify if it is clone or not")
         result = image_check()
-	st.write(result)
+    st.write(result)
+    
 
    
     

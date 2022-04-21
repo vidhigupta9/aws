@@ -42,10 +42,10 @@ def main():
 
     ################# Twitter API Connection #######################
     
-    consumer_key = "kvSRXawYtSh32pknAZh7NRAFv"
-    consumer_secret = "yEWEEnR5wqWUxUUUDT03N3uIpfDbdN5kgNOqXXQinWrqo2os2o"
-    access_token = "3104698248-9cv98abLhM1GTSQFZNGTdpYDgjqpra8JY7XxWca"
-    access_token_secret = "6na5TRSSNIck1smYecrygwSZBosbCW6yxkFxmHSyIvrEw"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = ""
+    access_token_secret = ""
 
     # Use the above credentials to authenticate the API.
 
